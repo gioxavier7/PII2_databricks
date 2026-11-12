@@ -9,6 +9,9 @@ bases/
   history.csv                     # camada Bronze: base oficial do professor (não alterar)
   silver/
     base_silver.csv               # camada Silver: base tratada e validada (gerada pelo notebook 02)
+  gold/
+    tabelas/                      # resultados tabulares da análise Gold (gerados pelo notebook 03)
+    graficos/                     # visualizações da análise Gold (gerados pelo notebook 03)
 docs/
   dicionario_dados.csv            # dicionário de dados atualizado (Silver)
   relatorio_qualidade_bronze_silver.csv  # indicadores de qualidade Bronze x Silver
@@ -16,6 +19,7 @@ docs/
 notebooks/
   01_exploracao_inicial.ipynb     # Semanas 1–2: exploração, qualidade e dicionário de dados
   02_tratamento_silver.ipynb      # Semana 3: tratamento e validação da camada Silver
+  03_analise_gold.ipynb           # Análise das oito perguntas de negócio e geração dos artefatos Gold
 requirements.txt                  # bibliotecas Python utilizadas
 ```
 
@@ -33,7 +37,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Abra os notebooks da pasta `notebooks/` no VS Code ou Jupyter, selecione o kernel do `.venv` e execute todas as células, em ordem (01 e depois 02). Os notebooks leem a base pelo caminho relativo `../bases/history.csv`.
+Abra os notebooks da pasta `notebooks/` no VS Code ou Jupyter, selecione o kernel do `.venv` e execute todas as células, em ordem (01, 02 e 03). O notebook 01 lê `../bases/history.csv`; o notebook 02 gera a Silver e os documentos de qualidade; o notebook 03 lê `../bases/silver/base_silver.csv` sem alterá-la e gera tabelas CSV e gráficos PNG em `bases/gold/`.
 
 ## Etapas do projeto
 
@@ -42,7 +46,7 @@ Abra os notebooks da pasta `notebooks/` no VS Code ou Jupyter, selecione o kerne
 | 01–02 | Conhecimento dos dados, qualidade e dicionário | Finalizado |
 | 03 | Processamento e Arquitetura Medalhão | Em andamento |
 | 04 | Armazenamento e consultas SQL | Pendente |
-| 05–06 | Análise exploratória e relações com o cancelamento | Pendente |
+| 05–06 | Análise exploratória e relações com o cancelamento | Finalizado |
 | 07 | Integração, documentação e revisão | Pendente |
 | 08 | Apresentação final | Pendente |
 

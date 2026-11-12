@@ -1,0 +1,9 @@
+pergunta,resultado
+Q1 tenure,"n=5,615; média 32.31; mediana 29 meses"
+Q2 MonthlyCharges,"n=5,634; média 64.61; mediana 70.30; moda 20.05"
+Q3 tenure × TotalCharges,Pearson/Spearman observado 0.823/0.887; com imputados 0.825/0.889
+Q4 MonthlyCharges × TotalCharges,Pearson/Spearman observado 0.651/0.638; com imputados 0.652/0.640
+Q5 MonthlyIncome × MonthlyCharges,Pearson/Spearman 0.011/0.012; semântica da renda não confirmada
+Q6 contrato × churn,maior taxa: 42.66% (Month-to-month); menor taxa: 3.27% (Two year)
+Q7 tenure por churn,"medianas não churn=37, churn=10 meses; n=5,615"
+Q8 correlações numéricas,maior Pearson absoluto: tenure × TotalCharges = 0.823; imputados excluídos
