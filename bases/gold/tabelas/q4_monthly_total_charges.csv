@@ -1,0 +1,3 @@
+escopo,variavel_x,n,pearson,spearman
+Principal: sem imputados,MonthlyCharges,5356,0.6514727077579994,0.6375817802116622
+Complementar: com imputados,MonthlyCharges,5633,0.6522976344017987,0.6402487989378363
