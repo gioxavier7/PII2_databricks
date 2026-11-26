@@ -1,0 +1,39 @@
+Contract,InternetService,PaymentMethod,PaperlessBilling,total_grupo,cancelamentos,taxa_churn_pct,ic95_inf_pct,ic95_sup_pct,segmento
+Month-to-month,Fiber optic,Electronic check,Yes,840,520,61.904761904761905,58.57358243998259,65.12755216408262,Month-to-month | Fiber optic | Electronic check | Yes
+Month-to-month,Fiber optic,Mailed check,Yes,119,62,52.10084033613445,43.20080721128783,60.869479846519155,Month-to-month | Fiber optic | Mailed check | Yes
+Month-to-month,Fiber optic,Electronic check,No,198,102,51.515151515151516,44.59158585881442,58.381044261407865,Month-to-month | Fiber optic | Electronic check | No
+Month-to-month,Fiber optic,Bank transfer (automatic),Yes,196,100,51.02040816326531,44.069942059136494,57.93164461041888,Month-to-month | Fiber optic | Bank transfer (automatic) | Yes
+Month-to-month,Fiber optic,Credit card (automatic),Yes,193,85,44.04145077720207,37.22164231732934,51.093827331292275,Month-to-month | Fiber optic | Credit card (automatic) | Yes
+Month-to-month,DSL,Electronic check,Yes,245,104,42.44897959183673,36.42333148874638,48.70776355652869,Month-to-month | DSL | Electronic check | Yes
+Month-to-month,DSL,Electronic check,No,129,49,37.98449612403101,30.071212958882533,46.59269883853082,Month-to-month | DSL | Electronic check | No
+Month-to-month,DSL,Mailed check,Yes,146,52,35.61643835616438,28.308983049972923,43.66139128396975,Month-to-month | DSL | Mailed check | Yes
+Month-to-month,DSL,Credit card (automatic),No,57,20,35.08771929824562,24.00042200916009,48.0581046443498,Month-to-month | DSL | Credit card (automatic) | No
+Month-to-month,Fiber optic,Bank transfer (automatic),No,63,22,34.92063492063492,24.325989015230324,47.24853922633822,Month-to-month | Fiber optic | Bank transfer (automatic) | No
+One year,Fiber optic,Electronic check,Yes,128,38,29.6875,22.458166083566667,38.10052276504461,One year | Fiber optic | Electronic check | Yes
+Month-to-month,DSL,Mailed check,No,143,38,26.573426573426573,20.015504552784698,34.3570544383292,Month-to-month | DSL | Mailed check | No
+Month-to-month,DSL,Credit card (automatic),Yes,103,25,24.271844660194176,17.015036749176595,33.37875178103541,Month-to-month | DSL | Credit card (automatic) | Yes
+Month-to-month,No,Mailed check,Yes,72,17,23.61111111111111,15.296709580848312,34.59876897285363,Month-to-month | No | Mailed check | Yes
+Month-to-month,DSL,Bank transfer (automatic),Yes,93,21,22.580645161290324,15.270154318255836,32.066450663678026,Month-to-month | DSL | Bank transfer (automatic) | Yes
+Month-to-month,No,Mailed check,No,186,34,18.27956989247312,13.386143645086662,24.4567275944083,Month-to-month | No | Mailed check | No
+One year,Fiber optic,Bank transfer (automatic),Yes,90,15,16.666666666666668,10.368488734312978,25.693886303308812,One year | Fiber optic | Bank transfer (automatic) | Yes
+Month-to-month,DSL,Bank transfer (automatic),No,66,10,15.151515151515152,8.443636982671272,25.692904869787665,Month-to-month | DSL | Bank transfer (automatic) | No
+One year,DSL,Mailed check,Yes,53,8,15.09433962264151,7.852417850846262,27.054249276195335,One year | DSL | Mailed check | Yes
+One year,Fiber optic,Credit card (automatic),Yes,89,12,13.48314606741573,7.884271200737804,22.103903451348057,One year | Fiber optic | Credit card (automatic) | Yes
+One year,DSL,Electronic check,Yes,59,7,11.864406779661017,5.867582775790306,22.523640399981694,One year | DSL | Electronic check | Yes
+Two year,Fiber optic,Bank transfer (automatic),Yes,93,11,11.827956989247312,6.734437805470361,19.94985540467286,Two year | Fiber optic | Bank transfer (automatic) | Yes
+Two year,Fiber optic,Electronic check,Yes,57,6,10.526315789473685,4.914465852374461,21.12281058338703,Two year | Fiber optic | Electronic check | Yes
+One year,DSL,Bank transfer (automatic),Yes,59,6,10.169491525423728,4.744797246240465,20.46381362623251,One year | DSL | Bank transfer (automatic) | Yes
+One year,DSL,Credit card (automatic),Yes,73,7,9.58904109589041,4.722895459680575,18.495636690166183,One year | DSL | Credit card (automatic) | Yes
+One year,DSL,Mailed check,No,55,5,9.090909090909092,3.945815507418035,19.57749458397994,One year | DSL | Mailed check | No
+One year,DSL,Credit card (automatic),No,66,5,7.575757575757576,3.2792037562960243,16.53919502061051,One year | DSL | Credit card (automatic) | No
+Two year,Fiber optic,Credit card (automatic),Yes,88,5,5.681818181818182,2.4511027973809196,12.619932657007254,Two year | Fiber optic | Credit card (automatic) | Yes
+One year,DSL,Bank transfer (automatic),No,57,3,5.2631578947368425,1.806029563366167,14.369550397163527,One year | DSL | Bank transfer (automatic) | No
+Two year,DSL,Credit card (automatic),No,94,4,4.25531914893617,1.6670548150042714,10.435645781881735,Two year | DSL | Credit card (automatic) | No
+Two year,DSL,Bank transfer (automatic),Yes,80,1,1.25,0.22099755204522745,6.746270077668664,Two year | DSL | Bank transfer (automatic) | Yes
+Two year,DSL,Bank transfer (automatic),No,86,1,1.1627906976744187,0.20555686652495644,6.296406589291726,Two year | DSL | Bank transfer (automatic) | No
+Two year,DSL,Credit card (automatic),Yes,90,1,1.1111111111111112,0.19640841009183446,6.028408311753451,Two year | DSL | Credit card (automatic) | Yes
+Two year,No,Bank transfer (automatic),No,100,1,1.0,0.17674320641406505,5.4486196178705315,Two year | No | Bank transfer (automatic) | No
+One year,No,Mailed check,No,105,1,0.9523809523809523,0.16831692328561942,5.19862586118897,One year | No | Mailed check | No
+Two year,No,Credit card (automatic),No,117,1,0.8547008547008547,0.15103535737964363,4.682950327418937,Two year | No | Credit card (automatic) | No
+Two year,No,Mailed check,No,158,1,0.6329113924050633,0.11181190763210579,3.497559178898904,Two year | No | Mailed check | No
+Two year,DSL,Mailed check,No,52,0,0.0,0.0,6.879223612386235,Two year | DSL | Mailed check | No

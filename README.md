@@ -19,7 +19,8 @@ docs/
 notebooks/
   01_exploracao_inicial.ipynb     # Semanas 1–2: exploração, qualidade e dicionário de dados
   02_tratamento_silver.ipynb      # Semana 3: tratamento e validação da camada Silver
-  03_analise_gold.ipynb           # Análise das oito perguntas de negócio e geração dos artefatos Gold
+  03_analise_gold.ipynb           # Oito perguntas originais e artefatos Gold
+  04_analise_estatistica_gold.ipynb # Segunda etapa estatística sobre Churn
 requirements.txt                  # bibliotecas Python utilizadas
 ```
 
@@ -37,7 +38,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Abra os notebooks da pasta `notebooks/` no VS Code ou Jupyter, selecione o kernel do `.venv` e execute todas as células, em ordem (01, 02 e 03). O notebook 01 lê `../bases/history.csv`; o notebook 02 gera a Silver e os documentos de qualidade; o notebook 03 lê `../bases/silver/base_silver.csv` sem alterá-la e gera tabelas CSV e gráficos PNG em `bases/gold/`.
+Abra os notebooks da pasta `notebooks/` no VS Code ou Jupyter, selecione o kernel do `.venv` e execute todas as células, em ordem (01, 02, 03 e 04). O notebook 01 lê `../bases/history.csv`; o notebook 02 gera a Silver e os documentos de qualidade; o notebook 03 lê a Silver e executa as oito perguntas originais; o notebook 04 também lê somente `../bases/silver/base_silver.csv` e gera a segunda etapa estatística de churn. Os novos artefatos usam o prefixo `e2_` em `bases/gold/tabelas/` e `bases/gold/graficos/`.
 
 ## Etapas do projeto
 

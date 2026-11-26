@@ -1,0 +1,6 @@
+topico,termos,textos_com_termo,total_textos,percentual_textos,limite
+internet_qualidade,internet; dsl; fiber optic; speed; reliable; slow; connectivity,5621,5634,99.76925807596734,"Busca literal; não identifica causa, sentimento ou risco de churn."
+cobranca,monthly charge; charges; billing; bill; expensive; steep; affordable,5548,5634,98.4735534256301,"Busca literal; não identifica causa, sentimento ou risco de churn."
+pagamento,payment; paying; paid; credit card; bank transfer; electronic check; mailed check,5410,5634,96.02413915512957,"Busca literal; não identifica causa, sentimento ou risco de churn."
+experiencia_satisfacao,satisfied; disappointed; issues; issue; problem; problems,5012,5634,88.95988640397586,"Busca literal; não identifica causa, sentimento ou risco de churn."
+contrato,contract; month-to-month; one-year; two-year,2370,5634,42.06602768903088,"Busca literal; não identifica causa, sentimento ou risco de churn."
